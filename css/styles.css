@@ -46,17 +46,37 @@ section {
   justify-content: space-between;
 }
 
+section h2 {
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+section img {
+  margin-bottom: 30px;
+}
+
 section article p {
-  height: 300px;
-  overflow: auto;
+  font-size: 16px;
+  height: 340px;
+  overflow-y: scroll;
+  margin-left: 30px;
+
 }
 
 button {
+  color: #ddd;
   transition: 350ms;
+  margin-left: 30px;
+  background-color: black;
+  height: 30px;
+  margin-top: 10px;
+  width: 120px;
 }
 
 button:hover {
   background-color: aqua;
+  color: black;
 }
 
 footer {
